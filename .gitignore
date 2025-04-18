@@ -1,0 +1,85 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data and pids
+pids/
+*.pid
+*.pid.lock
+
+# Compiled output
+/dist/
+/build/
+/out/
+
+# Electron build artifacts
+/*.app
+/*.asar
+/*.dmg
+/*.exe
+/*.deb
+/*.rpm
+/*.snap
+/*.msi
+/*.nupkg
+/SquirrelSetup.log
+/releases/
+
+# Cache directories
+.cache/
+.nyc_output/
+bower_components/
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Electron Forge/Builder/Packager specific
+/make/
+/release/
+/installer/
+/dist_electron/
+
+# VS Code & JetBrains IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+test-results/
+*.spec.ts
+*.spec.js
+
+# Lint cache
+.eslintcache
+
+# Lock files (keep only one)
+# Uncomment the one you DON'T use
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Others (optional depending on tooling)
+.yarn/
+.yarnrc.yml
+.pnp.*
